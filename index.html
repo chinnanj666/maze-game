@@ -6,6 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maze</title>
   <link rel="stylesheet" href="./style.css">
+  <style>
+    /* Additional styles for footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
 </head>
 <body>
 
@@ -24,11 +36,11 @@
     <div id="menu">
       <div class="custom-select">
         <select id="diffSelect">
-                  <option value="10">Easy</option>
-                  <option value="15">Medium</option>
-                  <option value="25">Hard</option>
-                  <option value="38">Extreme</option>                                      
-              </select>
+          <option value="10">Easy</option>
+          <option value="15">Medium</option>
+          <option value="25">Hard</option>
+          <option value="38">Extreme</option>                                      
+        </select>
       </div>
       <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start" />
     </div>
@@ -42,6 +54,10 @@
     <p id="instructions">Use arrow keys to move the key to the house!</p>
 
   </div>
+
+  <footer>
+    Design by Chinna N J | &copy; 2024 All rights reserved.
+  </footer>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>

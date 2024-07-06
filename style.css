@@ -10,9 +10,12 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background: linear-gradient(135deg, #FF6B6B, #FFA08A, #FFDD94, #B7F0B1, #85D1C2, #8EB5E1, #A78BEB, #D8AAD9);
     font-family: 'Poppins', sans-serif;
 }
+
+/* Rest of your CSS styles */
+
 
 #view {
     margin-top: 30px;
