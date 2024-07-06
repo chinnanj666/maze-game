@@ -1,7 +1,6 @@
 
 # Maze Game
-
-![App Screenshot]()
+<img width="1101" alt="Screenshot 2024-07-06 at 10 27 31" src="https://github.com/chinnanj666/maze-game/assets/114425702/53a2281c-00e2-46a2-b9ed-95c12e1215fe">
 
 ## Introduction
 
@@ -33,8 +32,5 @@ The Rat in a Maze problem is solved using a recursive and backtracking algorithm
 - If no valid move is found, backtrack to the previous cell and explore other directions.
 
 Continue this process until a solution is found or all possibilities are exhausted.
-
-
-![App Screenshot]()
 
 When Successfully completed it will generate and return the user with number of steps taken for the completion of the Game AND also a button for !TRY AGAIN! as COOL.# maze-game
